@@ -1,7 +1,1 @@
-difference = (x) => {
-    if(x > 13) return (x-13)*2;
-    return Math.abs(x-13);
-}
-
-console.log(difference(32))
-console.log(difference(11))
+difference = x => x > 13 ? (x-13)*2 : Math.abs(x-13);
