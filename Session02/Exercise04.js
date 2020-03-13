@@ -1,0 +1,1 @@
+filterLessThan20 = arr => arr.filter(x => x < 20);
