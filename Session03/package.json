@@ -1,0 +1,25 @@
+{
+  "name": "session03",
+  "version": "1.0.0",
+  "description": "Exercises for Session 03",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LorranSutter/BCDV1008.git"
+  },
+  "author": "Lorran Sutter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LorranSutter/BCDV1008/issues"
+  },
+  "homepage": "https://github.com/LorranSutter/BCDV1008#readme",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "nodemon": "^2.0.2",
+    "say": "^0.16.0",
+    "upper-case": "^2.0.1"
+  }
+}
