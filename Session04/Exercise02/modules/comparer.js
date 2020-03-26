@@ -1,0 +1,1 @@
+exports.AreNumberEqual = (a,b) => a === b;
