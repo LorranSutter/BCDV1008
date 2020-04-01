@@ -1,0 +1,28 @@
+// Task 1: Query
+db.Restaurants.find({
+  cuisine: "Japanese"
+});
+
+// Task 2:  Projections
+db.Restaurants.find(
+  {
+    cuisine: "Japanese"
+  },
+  { cuisine: 1, name: 1 }
+);
+
+// Task 3: Sort
+db.Restaurants.find(
+  {
+    cuisine: "Japanese"
+  },
+  { cuisine: 1, name: 1 }
+).sort({ name: 1 });
+
+// Task 4: Filter
+db.Restaurants.find(
+  {
+    cuisine: { $eq: "Japanese" }
+  },
+  { _id: 1, city: 1, cuisine: 1, name: 1, restaurant_id: 1 }
+).sort({ restaurant_id: 1 });
